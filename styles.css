@@ -1,0 +1,132 @@
+body {
+    /*background-image: url(/images/pattern-background-desktop.svg);*/
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.order-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    width: 55%;
+    border-radius: 15px;
+    font-family: "Red Hat Display";
+}
+
+.order-card-image img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 1.5rem;
+}
+
+.card-body {
+    padding: 1rem;
+    padding-bottom: 2.7rem;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 1rem;
+}
+
+.order-card-text {
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    color: #b6bbc3;
+    margin: 0 2rem 1rem 2em;
+}
+
+.plan-type-section {
+    width: 85%;
+    height: 5rem;
+    margin: auto;
+    display: flex;
+    background-color: #f8f9fe;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.plan-type-info {
+    flex: 2 auto;
+}
+
+.plan-type-text {
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+.plan-cost {
+    color: #8f95ae;
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+.change-plan-button {
+    font-size: .8rem;
+    color: #6050d8;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.change-plan-button:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#music-icon, .change-plan-button {
+    flex: 1;
+}
+
+#music-icon {
+    margin-right: 1.25rem;
+}
+
+.proceed-button {
+    background-color: #3929e1;
+    text-align: center;
+    border-radius: 10px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 1.8rem;
+    padding: .6rem;
+}
+
+.proceed-button p {
+    color: #ffff;
+    font-weight: 800;
+    font-size: .8rem;
+}
+
+.proceed-button:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+#cancel-order-button {
+    color: #949bb3;
+    text-align: center;
+    font-size: .75rem;
+    font-weight: 900;
+}
+
+#cancel-order-button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
